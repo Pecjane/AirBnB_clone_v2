@@ -245,4 +245,4 @@ $ python3 unittest -m tests/test_console.py
 
 ## Authors:
 **Aliyu Hydar Ahmad** <[DEVHYYDAR01](https://github.com/DEVHYDAR01)>
-**Pecjane** [PECJANE](https://github.com/Pecjane)>
+**Pecjane** <[PECJANE](https://github.com/Pecjane)>
