@@ -7,7 +7,7 @@ the state"""
 
 class State(BaseModel):
 
-    """Initialize state class
+    """Initializing the state class
     instance
     of basemodel class"""
 

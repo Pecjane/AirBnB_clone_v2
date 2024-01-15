@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 from models.base_model import BaseModel
 """Class that
-represent
+represents
 the review"""
 
 
 class Review(BaseModel):
 
-    """Initialize review class
+    """Initializing the reviewed class
     instance
     of basemodel class"""
     place_id = ''
