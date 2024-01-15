@@ -20,11 +20,11 @@ from models import storage
 
 
 class TestHbnbConsole(unittest.TestCase):
-    """this will all the
-    aspects about console"""
+    """it will all of the
+    aspect about console"""
 
     def setUp(self):
-        """Sets up tests
+        """to Set up tests
         for the console methods."""
         pass
 
@@ -41,7 +41,6 @@ class TestHBNB_prompt(unittest.TestCase):
 
 
 class TestHBNBcreate(unittest.TestCase):
-
 
     @classmethod
     def setUp(self):
@@ -110,8 +109,6 @@ class TestHBNBcreate(unittest.TestCase):
             self.assertLess(0, len(output.getvalue().strip()))
             testKey = "Review.{}".format(output.getvalue().strip())
             self.assertIn(testKey, storage.all().keys())
-
-
 
 
 if __name__ == "__main__":

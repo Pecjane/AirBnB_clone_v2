@@ -10,21 +10,21 @@ from models.engine.file_storage import FileStorage
 
 
 class Test_Amenity(unittest.TestCase):
-    """ Test for
+    """ Tested for
     Amenity Class """
 
     examplee = Amenity()
 
     def setUp(self):
         """set up the
-        test for testing amenities"""
+        test for testing amenities auto"""
         FileStorage._FileStorage__file_path = "test.json"
         self.amenity = Amenity()
         self.amenity.name = "remarkable"
         self.amenity.save()
 
     def test_class_existance(self):
-        """tests if class exists"""
+        """tests if class exists or null"""
         result = "<class 'models.amenity.Amenity'>"
         self.assertEqual(str(type(self.examplee)), result)
 
@@ -53,6 +53,7 @@ class Test_Amenity(unittest.TestCase):
         self.assertTrue(hasattr(self.amenity, 'id'))
         self.assertTrue(hasattr(self.examplee, 'created_at'))
         self.assertTrue(hasattr(self.amenity, 'updated_at'))
+
 
 if __name__ == "__main__":
     unittest.main()

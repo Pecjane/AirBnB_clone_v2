@@ -18,11 +18,11 @@ from models.city import City
 
 
 class Test_FileStorage(unittest.TestCase):
-    """ Test for
+    """ Testing for
     File_Storage Class """
 
     def setUp(self):
-        """ set up the
+        """ setting up the
         test for testing File_Storage """
         FileStorage._FileStorage__file_path = "file.json"
 

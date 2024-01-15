@@ -18,7 +18,7 @@ class Test_BaseModel(unittest.TestCase):
 
     def setUp(self):
         """set up the
-        test for testing bae models"""
+        test for testing base model"""
         FileStorage._FileStorage__file_path = "file.json"
 
     def test_noarg(self):

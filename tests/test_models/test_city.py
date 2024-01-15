@@ -10,7 +10,7 @@ from models.engine.file_storage import FileStorage
 
 
 class Test_City(unittest.TestCase):
-    """ Test for
+    """ Tests for the
     city Class """
 
     def setUp(self):
@@ -50,5 +50,7 @@ class Test_City(unittest.TestCase):
         """test if the save works"""
         self.city.save()
         self.assertNotEqual(self.city.created_at, self.city.updated_at)
+
+
 if __name__ == "__main__":
     unittest.main()
